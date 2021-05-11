@@ -2,6 +2,11 @@
   "hints": [],
   "groups": [
     {
+      "sourceType": "com.dwq.springCloud.Configuration.complex.ComplexConfiguration",
+      "name": "complex.config",
+      "type": "com.dwq.springCloud.Configuration.complex.ComplexConfiguration"
+    },
+    {
       "sourceType": "com.dwq.springCloud.Configuration.SimpleProperties",
       "name": "config.test",
       "type": "com.dwq.springCloud.Configuration.SimpleProperties"
@@ -18,6 +23,16 @@
     }
   ],
   "properties": [
+    {
+      "sourceType": "com.dwq.springCloud.Configuration.complex.ComplexConfiguration",
+      "name": "complex.config.app-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.dwq.springCloud.Configuration.complex.ComplexConfiguration",
+      "name": "complex.config.templates",
+      "type": "java.util.List<com.dwq.springCloud.Configuration.complex.templateConfiguration>"
+    },
     {
       "sourceType": "com.dwq.springCloud.Configuration.inherit.ChildBean",
       "name": "config.test.child.host",

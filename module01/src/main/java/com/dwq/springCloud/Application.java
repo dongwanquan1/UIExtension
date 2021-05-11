@@ -1,5 +1,6 @@
 package com.dwq.springCloud;
 
+import com.dwq.springCloud.Configuration.complex.ComplexConfiguration;
 import com.dwq.springCloud.Configuration.inherit.ChildBean;
 import com.dwq.springCloud.Configuration.inherit.ParentBean;
 import org.springframework.boot.SpringApplication;
@@ -15,7 +16,8 @@ public class Application {
         ConfigurableApplicationContext context= SpringApplication.run(Application.class, args);
         ParentBean parentBean =context.getBean("parentConfig",ParentBean.class);
         ChildBean childBean =context.getBean("childConfig",ChildBean.class);
-
+//        ComplexConfiguration
+        ComplexConfiguration complexConfig =context.getBean(ComplexConfiguration.class);
         System.out.println("parentBean is "+parentBean);
         System.out.println("childBean is "+childBean);
     }
