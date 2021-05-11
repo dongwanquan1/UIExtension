@@ -37,7 +37,6 @@ public class Book implements BookInterface {
     public String getIllustrator() {
         return illustrator;
     }
-
     public void setIllustrator(String illustrator) {
         this.illustrator = illustrator;
     }
