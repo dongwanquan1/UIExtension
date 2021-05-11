@@ -13,10 +13,8 @@ import java.util.List;
 @Data
 @Configuration
 @ConfigurationProperties(prefix = "complex.config")
+
 public class ComplexConfiguration {
-    public ComplexConfiguration() {
-        // TODO Auto-generated constructor stub
-    }
     private String appName;
     private List<templateConfiguration> templates;
 }
