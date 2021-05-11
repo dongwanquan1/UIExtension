@@ -1,0 +1,19 @@
+#dwq:
+#  username: app_mystery_shopper_junit
+#  password: Testbus!654321
+#  maxIdle: 10
+#  minIdle: 2
+complex:
+  config:
+    appName: EPPIC
+    templates: 
+      - maxIdle: 10
+        minIdle: 6
+        templateName: epc
+      - maxIdle: 20
+        minIdle: 14
+        templateName: ebt
+        
+#spring:
+#  datasource:
+#    url: 

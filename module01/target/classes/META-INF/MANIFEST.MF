@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: module01
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: amanda ma
+Implementation-Vendor-Id: org.example
+Build-Jdk: 1.8.0_112
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/UIExtension/module01
+Created-By: Maven Integration for Eclipse
+
